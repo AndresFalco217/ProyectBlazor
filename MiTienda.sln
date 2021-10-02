@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MITIENDA.Blazor", "MITIENDA.Blazor\MITIENDA.Blazor.csproj", "{7D98C1DC-2FC8-405E-8E74-55A7A5B33C23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D98C1DC-2FC8-405E-8E74-55A7A5B33C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D98C1DC-2FC8-405E-8E74-55A7A5B33C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D98C1DC-2FC8-405E-8E74-55A7A5B33C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D98C1DC-2FC8-405E-8E74-55A7A5B33C23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFB9B32C-EFE4-4F35-84C8-817241BB8D51}
+	EndGlobalSection
+EndGlobal
