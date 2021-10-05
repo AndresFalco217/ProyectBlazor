@@ -1,0 +1,51 @@
+﻿@page "/Account/login"
+
+@layout UnauthorizedLayout
+
+<div class="container">
+    <div class="col-md-6 offset-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="text-center">MI TIENDA</h4>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-center">Iniciar sesión</h5>
+                <div class="col-md-12 mb-3">
+                    <label>Usuario</label>
+                    <input type="text" class="form-control" />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <label>Contraseña</label>
+                    <input type="password" class="form-control" />
+                </div>
+                <div class="col-md-12">
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Mantener sesión</label>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <a href="#" class="btn btn-primary btn-block">Iniciar</a>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <a href="/Account/recoverpassword">¿Olvidastes tu contraseña?</a>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <hr />
+                </div>
+                <div class="col-md-12 mb-3">
+                    <h6>¿Aun no tienes una cuenta?</h6>
+                </div>
+                <div class="col-md-12 mb-3">
+                    <a href="/Account/register" class="btn btn-success btn-block">Registrate ahora</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@code {
+
+}
