@@ -58,7 +58,7 @@ namespace MITIENDA.Blazor.Data
 
             productos.HasMany(x => x.DetallesFacturas) //Representa que tiene varios DetallesFacturas.
             .WithOne(x => x.Producto) //Representa que esta linea producto tiene una categoria.
-            .HasForeignKey(x => x.Producto); //Llave Foranea.
+            .HasForeignKey(x => x.IdProducto); //Llave Foranea.
 
             //Facturas
             var facturas = modelBuilder.Entity<Factura>();

@@ -1,1 +1,12 @@
 ﻿@page "/"
+
+@inject RolesServices rolesService
+
+<button class="btn btn-primary" @onclick="ListaRoles">Lista Roles</button>
+
+@code{
+    protected void ListaRoles()
+    {
+        var lista = rolesService.ListaRoles();
+    }
+}

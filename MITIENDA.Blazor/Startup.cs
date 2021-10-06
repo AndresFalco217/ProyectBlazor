@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MITIENDA.Blazor.Data;
+using MITIENDA.Blazor.Data.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,8 +24,6 @@ namespace MITIENDA.Blazor
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
@@ -32,9 +31,12 @@ namespace MITIENDA.Blazor
 
             //Configuracion con el appsettings
             services.AddDbContext<MiTiendaDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("MiTiendaDbContext")),
-            ServiceLifetime.Transient);
+                    options.UseSqlServer(Configuration.GetConnectionString("MiTiendaDbContext")),
+                    ServiceLifetime.Transient);
+
             services.AddTransient<MiTiendaDbContext>();
+            services.AddTransient<UsuariosServices>();
+            services.AddTransient<RolesServices>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

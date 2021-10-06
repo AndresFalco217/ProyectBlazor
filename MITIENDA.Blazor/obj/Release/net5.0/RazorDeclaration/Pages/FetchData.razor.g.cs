@@ -69,15 +69,22 @@ using Microsoft.JSInterop;
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\_Imports.razor"
+#line 10 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\_Imports.razor"
 using MITIENDA.Blazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\_Imports.razor"
+#line 11 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\_Imports.razor"
 using MITIENDA.Blazor.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\_Imports.razor"
+using MITIENDA.Blazor.Data.Services;
 
 #line default
 #line hidden

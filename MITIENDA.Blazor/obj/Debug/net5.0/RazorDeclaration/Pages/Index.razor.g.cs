@@ -69,15 +69,29 @@ using Microsoft.JSInterop;
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\_Imports.razor"
+#line 10 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\_Imports.razor"
 using MITIENDA.Blazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\_Imports.razor"
+#line 11 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\_Imports.razor"
 using MITIENDA.Blazor.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\_Imports.razor"
+using MITIENDA.Blazor.Data.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\_Imports.razor"
+using MITIENDA.Blazor.Data.Models;
 
 #line default
 #line hidden
@@ -90,6 +104,18 @@ using MITIENDA.Blazor.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 7 "C:\SIEMPRE.NET\CURSO\PROYECTO TIENDA\MITIENDA.Blazor\Pages\Index.razor"
+      
+    protected void ListaRoles()
+    {
+        var lista = rolesService.ListaRoles();
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private RolesServices rolesService { get; set; }
     }
 }
 #pragma warning restore 1591
